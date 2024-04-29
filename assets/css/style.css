@@ -1,0 +1,67 @@
+/* Base Style CSS Start */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Colors */
+
+:root {
+  --primary: #1f51ff;
+  --orange: #ff9401;
+  --red: #ec3406;
+  --green: #04ad0b;
+  --grey: #515151;
+  --grey-light: #bfbfbf;
+  --black: #000000;
+  --white: #ffffff;
+  --light-blue: #f7f9fe;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.heading-xl {
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--black);
+}
+
+.heading-l {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--black);
+}
+
+/* Base Style CSS End */
