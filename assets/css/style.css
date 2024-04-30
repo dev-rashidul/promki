@@ -13,6 +13,7 @@ body {
   font-family: "Roboto Mono", monospace;
   font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
+  background: var(--light-blue);
 }
 
 /* Colors */
@@ -65,3 +66,67 @@ img {
 }
 
 /* Base Style CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  padding: 20px 0;
+  z-index: 999;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.nav-link {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--black);
+  padding: 0 16px !important;
+}
+
+.star,
+.user {
+  font-size: 20px;
+  color: var(--black);
+}
+
+.user {
+  padding-left: 10px;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  margin-top: -15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+@media (max-width: 1200px) {
+  .logo a {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .navbar-nav {
+    padding-top: 10px;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Header Part CSS End */
