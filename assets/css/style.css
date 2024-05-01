@@ -55,6 +55,7 @@ img {
   font-weight: 700;
   line-height: 27px;
   color: var(--black);
+  margin-bottom: 0;
 }
 
 .heading-l {
@@ -63,6 +64,7 @@ img {
   font-weight: 700;
   line-height: 24px;
   color: var(--black);
+  margin-bottom: 0;
 }
 
 /* Base Style CSS End */
@@ -129,4 +131,431 @@ nav.navbar {
 
 /* Navigation Section CSS End */
 
+/* Search Section CSS Start */
+
+.search-container {
+  padding-top: 32px;
+}
+
+.search-bar {
+  background: var(--white);
+  padding: 10px 16px;
+}
+
+.search-icon i {
+  color: #808080;
+  padding-right: 10px;
+}
+
+.search-box {
+  width: 90%;
+}
+
+.search-field,
+.search-field input {
+  width: 100%;
+  border: none;
+}
+
+.search-field input:focus {
+  outline: 0;
+}
+
+.search-field input ::placeholder {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.search-button button {
+  color: var(--white);
+  background: var(--primary);
+  padding: 8px 12px;
+  border: none;
+}
+
+.search-button button i {
+  padding-right: 5px;
+}
+
+/* Search Section CSS End */
+
+/* Category Section CSS Start */
+
+.category-wrapper {
+  padding: 32px 0 25px;
+}
+
+.see-all-btn a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+.category-buttons a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: var(--black);
+  background: var(--white);
+  padding: 7px 12px;
+  border: 2px solid var(--black);
+}
+
+.hit-dnia {
+  padding-top: 40px;
+}
+
+/* Category Section CSS End */
+
+/* Hero Section HTML Start */
+
+.hero-wrapper {
+  padding: 95px 0;
+  background: var(--white);
+}
+
+.hero-img,
+.hero-img img {
+  max-width: 320px;
+  width: 320px;
+  margin: auto;
+}
+
+.hero-product-dsc {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-product-dsc span {
+  font-family: "Rubik", sans-serif;
+  font-size: 19.5183px;
+  font-weight: 700;
+  color: var(--white);
+  padding: 9.75916px 12.199px;
+  background: var(--orange);
+}
+
+.hero-content-card {
+  max-width: 385px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-content-card h4 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: var(--black);
+}
+
+.hero-content-card h5 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--grey);
+  margin-bottom: 0;
+}
+
+.fav-btn {
+  padding-top: 15px;
+}
+
+.fav-btn a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--black);
+}
+
+.fav-btn a i {
+  color: var(--primary);
+  padding-right: 5px;
+}
+
+.hero-content-card > span {
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 10px;
+  color: #868686;
+  padding-top: 15px;
+}
+
+.available-product {
+  text-align: left;
+}
+
+.available-product h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--black);
+  margin-bottom: 5px;
+}
+
+.available-product span {
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  color: #868686;
+  padding-left: 12px;
+}
+
+.available-product span::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: var(--green);
+  border-radius: 100%;
+}
+
+.regular-price {
+  text-align: right;
+}
+
+.regular-price span {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  color: #868686;
+  margin-bottom: 5px;
+}
+
+.regular-price h5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black);
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.buy-btn {
+  margin-top: 35px;
+}
+
+.buy-btn.orange {
+  border: 1px solid var(--orange);
+}
+
+.buy-btn.blue {
+  border: 1px solid var(--primary);
+}
+
+.buy-btn.red {
+  border: 1px solid var(--red);
+}
+
+.buy-btn.black {
+  border: 1px solid var(--black);
+}
+
+.buy-btn a {
+  display: block;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 0 5px;
+}
+
+.buy-btn.orange a {
+  color: var(--orange);
+}
+
+.buy-btn.blue a {
+  color: var(--primary);
+}
+
+.buy-btn.red a {
+  color: var(--red);
+}
+
+.buy-btn.black a {
+  color: var(--black);
+}
+
+.buy-btn a span {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.buy-btn-icon {
+  position: absolute;
+  top: -12px;
+  left: 16px;
+}
+
+.buy-btn-icon span {
+  background: var(--white);
+  padding: 5px 10px;
+}
+
+.btn-discount-tag {
+  position: absolute;
+  top: -13px;
+  right: 16px;
+}
+
+.btn-discount-tag span {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  padding: 8px 12px;
+}
+
+.btn-discount-tag span.orange {
+  background: var(--orange, #ff9401);
+}
+
+.btn-discount-tag span.blue {
+  background: var(--primary);
+}
+
+.btn-discount-tag span.red {
+  background: var(--red);
+}
+
+.btn-discount-tag span.black {
+  background: var(--black);
+}
+
+.owl-carousel .owl-stage .owl-item:last-child:not(.owl-item.active) {
+  opacity: 0.5; /* Adjust opacity as needed */
+}
+
+/* Hero Section HTML End */
+
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Popular Section CSS Start */
+
+.popular-wrapper {
+  padding-top: 64px;
+}
+
+.product-slider-container {
+  padding: 40px 0 32px;
+  background: var(--white);
+  padding-left: 10%;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding-top: 20px;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: initial;
+}
+
+.owl-stage {
+  padding-left: 0px !important;
+}
+
+.product-slide-img {
+  max-width: 260px;
+  margin: auto;
+  text-align: center;
+}
+
+.product-discount-tag {
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+
+.product-discount-tag span {
+  font-family: "Rubik", sans-serif;
+  font-size: 19.5183px;
+  font-weight: 700;
+  color: var(--white);
+  padding: 9.75916px 12.199px;
+  background: var(--primary);
+}
+
+.product-fav {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+}
+
+.product-fav i {
+  color: var(--primary);
+}
+
+.product-slide-content {
+  padding-top: 30px;
+}
+
+.product-slide-content h5 {
+  color: var(--black);
+  font-family: "Rubik", sans-serif;
+  font-size: 17.053px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.product-slide-content h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 15.158px;
+  font-weight: 500;
+  color: var(--grey);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.product-fill-btn {
+  padding-top: 30px;
+}
+
+.product-fill-btn a {
+  display: block;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--white, #fff);
+  background: var(--primary, #1f51ff);
+  padding: 12px 16px;
+  border: 1px solid var(--primary);
+}
+
+.availability-btn a {
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15.158px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: var(--black);
+  padding-top: 15px;
+}
+
+/* Popular Section CSS End */
+
+/* Main Part CSS End */
