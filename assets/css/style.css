@@ -568,6 +568,14 @@ nav.navbar {
   padding-left: 0px !important;
 }
 
+.owl-item {
+  opacity: 0.5;
+}
+
+.owl-item.active {
+  opacity: 1;
+}
+
 .product-slide-img {
   max-width: 260px;
   margin: auto;
