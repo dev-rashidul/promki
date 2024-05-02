@@ -1,5 +1,5 @@
 $(".owl-carousel").owlCarousel({
-  stagePadding: 100,
+  stagePadding: 90,
   loop: true,
   margin: 100,
   nav: false,
@@ -9,12 +9,17 @@ $(".owl-carousel").owlCarousel({
   responsive: {
     0: {
       items: 1,
+      margin: 60,
+      stagePadding: 50,
     },
     768: {
       items: 1,
+      margin: 60,
+      stagePadding: 50,
     },
-    9920: {
+    992: {
       items: 2,
+      margin: 80,
     },
     1200: {
       items: 3,

@@ -179,6 +179,104 @@ nav.navbar {
 
 /* Search Section CSS End */
 
+/* Search Modal CSS Start */
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.search-modal .modal-dialog {
+  max-width: 85%;
+  width: 100%;
+  margin-top: 116px;
+}
+
+.search-modal .modal-content {
+  border-radius: 0 !important;
+}
+
+.search-modal .modal-body {
+  padding: 0;
+}
+
+.search-modal-content {
+  padding: 20px 25px;
+}
+
+.search-modal-suggestions h6,
+.search-modal-hot > h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 5px;
+}
+
+.search-modal-suggestions ul li {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black, #000);
+  padding-top: 13px;
+}
+
+.search-modal-suggestions ul li i {
+  color: #808080;
+  padding-right: 5px;
+}
+
+.search-modal-hot {
+  padding-top: 20px;
+}
+
+.search-modal-hot > h6 {
+  margin-bottom: 16px;
+}
+
+.search-modal-hot-card {
+  margin-bottom: 24px;
+}
+
+.smhc-img {
+  margin-right: 24px;
+}
+
+.smhc-content h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 17.0526px;
+  line-height: 20px;
+  color: var(--black);
+  margin-bottom: 2px;
+}
+
+.smhc-content span {
+  font-family: "Rubik", sans-serif;
+  font-size: 15.158px;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.smhc-tag span {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  color: var(--white);
+  background: var(--red, #ec3406);
+  padding: 8.059px 10.074px;
+  margin: 0 16px;
+}
+
+.smhc-right h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0;
+  margin-right: 16px;
+}
+
+/* Search Modal CSS End */
+
 /* Category Section CSS Start */
 
 .category-wrapper {
@@ -656,7 +754,7 @@ nav.navbar {
   font-weight: 700;
   color: var(--white);
   background: var(--black);
-  padding: 12px 12px;
+  padding: 11px 12px;
   margin-left: 12px;
   border: none;
 }
@@ -672,3 +770,47 @@ nav.navbar {
 /* Latest Promotions Section CSS End */
 
 /* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: var(--white);
+  padding: 40px 0;
+  margin-top: 64px;
+}
+
+.footer-container {
+  padding-top: 30px;
+}
+
+.footer-menu h6 {
+  color: var(--black);
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-nav li {
+  padding: 4px 0;
+}
+
+.footer-nav li a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: #868686;
+}
+
+.footer-menu li a.expand-all-btn {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #868686;
+}
+
+.footer-nav li a span {
+  font-weight: 400;
+}
+
+/* Footer Part CSS End */
