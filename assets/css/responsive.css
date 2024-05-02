@@ -128,7 +128,7 @@
     background: var(--orange);
   }
 
-  .buy-btn a span {
+  .hero-content-card .buy-btn a span {
     color: var(--white);
   }
 
