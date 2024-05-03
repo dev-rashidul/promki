@@ -263,14 +263,18 @@
                   </option>
                 </select>
                 <div class="filter-btn ps-md-3">
-                  <a href="#">
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#filterModal"
+                  >
                     <img
                       loading="lazy"
                       src="assets/images/filter-icon.svg"
                       alt="filter-icon"
                     />
-                    Filtry</a
-                  >
+                    Filtry
+                  </button>
                 </div>
               </div>
             </div>
@@ -650,6 +654,306 @@
       </section>
 
       <!-- Category Section HTML End -->
+
+      <!-- Filter Modal HTML Start -->
+
+      <div class="filter-modal">
+        <div
+          class="modal fade"
+          id="filterModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">Filtry</h2>
+                <button
+                  type="button"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <img
+                    loading="lazy"
+                    src="assets/images/cross-icon.svg"
+                    alt="cross-icon"
+                  />
+                </button>
+              </div>
+              <div class="modal-body pt-2 pb-0">
+                <div class="filter-modal-content">
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseOne"
+                          aria-expanded="true"
+                          aria-controls="panelsStayOpen-collapseOne"
+                        >
+                          Kategorie
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseOne"
+                        class="accordion-collapse collapse show"
+                      >
+                        <div class="accordion-body">
+                          <div class="category-buttons pt-0">
+                            <a href="#">Telefony</a>
+                            <a class="active" href="#">iPhone</a>
+                            <a href="#">Nowości</a>
+                            <a href="#">Smartfon</a>
+                            <a href="#">Android</a>
+                            <a href="#">Android</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseTwo"
+                        >
+                          Zakres cen
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseTwo"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <h1>lorem1000</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseThree"
+                        >
+                          Sklepy
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseThree"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <div class="shops-contents">
+                            <div
+                              class="checkbox-container d-flex flex-wrap gap-3"
+                            >
+                              <div class="checkbox-item">
+                                <input class="custom" type="checkbox" />
+                                <label>Wszystkie</label>
+                              </div>
+                              <div class="checkbox-item">
+                                <input type="checkbox" />
+                                <label>Media Expert</label>
+                              </div>
+                              <div class="checkbox-item">
+                                <input type="checkbox" />
+                                <label>Media Markt</label>
+                              </div>
+                              <div class="checkbox-item">
+                                <input type="checkbox" />
+                                <label>AVANS</label>
+                              </div>
+                              <div class="checkbox-item">
+                                <input type="checkbox" />
+                                <label>Morele</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFour"
+                        >
+                          <img
+                            class="pe-2"
+                            src="assets/images/switch-icon.svg"
+                            alt="switch-icon"
+                          />
+                          Dostępne lokalnie
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseFour"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <div class="available-locally">
+                            <span>Kod pocztowy</span>
+                            <div class="filter-input">
+                              <input type="text" placeholder="number" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filtry d-flex align-items-center gap-3 pb-4">
+                      <h5>Filtry</h5>
+                      <div class="category-buttons pt-0">
+                        <a class="active" href="#">iPhone</a>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFive"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFive"
+                        >
+                          Przekątna ekranu
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseFive"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <div
+                            class="filter-input-contaienr d-flex align-items-center gap-3"
+                          >
+                            <span>od</span>
+                            <div class="filter-input">
+                              <input type="text" placeholder="number" />
+                            </div>
+                            <span>do</span>
+                            <div class="filter-input">
+                              <input type="text" placeholder="number" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSix"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSix"
+                        >
+                          Pamięć ram
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseSix"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <div
+                            class="checkbox-container d-flex flex-column gap-2"
+                          >
+                            <div class="checkbox-item">
+                              <input class="custom" type="checkbox" />
+                              <label>6GB (38)</label>
+                            </div>
+                            <div class="checkbox-item">
+                              <input type="checkbox" />
+                              <label>4GB (35)</label>
+                            </div>
+                            <div class="checkbox-item grey">
+                              <input type="checkbox" />
+                              <label>16GB (0)</label>
+                            </div>
+                            <div class="checkbox-item grey">
+                              <input type="checkbox" />
+                              <label>32 GB (0)</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSeven"
+                        >
+                          Pamięć wbudowana
+                        </button>
+                      </h2>
+                      <div
+                        id="panelsStayOpen-collapseSeven"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <div
+                            class="checkbox-container d-flex flex-column gap-2"
+                          >
+                            <div class="checkbox-item">
+                              <input class="custom" type="checkbox" />
+                              <label>1TB (8)</label>
+                            </div>
+                            <div class="checkbox-item">
+                              <input type="checkbox" />
+                              <label>512GB (4)</label>
+                            </div>
+                            <div class="checkbox-item grey">
+                              <input type="checkbox" />
+                              <label>16GB (0)</label>
+                            </div>
+                            <div class="checkbox-item grey">
+                              <input type="checkbox" />
+                              <label>32 GB (0)</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="filter-modal-footer d-flex justify-content-between align-items-center"
+              >
+                <div class="filter-modal-clear-btn">
+                  <a href="#">Wyczyść wszystko</a>
+                </div>
+                <div class="fm-confirm-btn">
+                  <a href="#">ZATWIERDŹ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Modal HTML End -->
     </main>
 
     <!-- Main Part HTML End -->

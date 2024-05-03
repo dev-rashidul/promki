@@ -863,10 +863,143 @@ Category Page CSS
   outline: 0;
 }
 
-.filter-btn a {
+.filter-btn button {
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
   color: var(--white);
   background: var(--black, #000);
-  padding: 10px 12px;
+  padding: 8px 12px;
+  border: none;
 }
+
+/* Filter Modal Section CSS Start */
+
+.filter-modal .modal-header {
+  border-bottom: none;
+}
+
+.filter-modal .modal-header button {
+  border: none;
+}
+
+.filter-modal .modal-header h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.filter-modal .modal-dialog {
+  max-width: 760px;
+  margin-top: 210px;
+}
+
+.filter-modal .modal-content {
+  border-radius: 0;
+}
+
+.filter-modal .accordion-item {
+  border: none;
+  padding-bottom: 30px;
+}
+
+.filter-modal .accordion-body {
+  padding: 15px 0 0;
+}
+
+.filter-modal .accordion-button {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  padding: 0;
+}
+
+.filter-modal .accordion-button::after {
+  margin-left: 10px;
+}
+
+.filter-modal .accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  background: none;
+  box-shadow: none;
+}
+
+.filter-modal .category-buttons a.active {
+  font-weight: 700;
+  background: var(--light-blue, #f7f9fe);
+  border: 2px solid var(--primary, #1f51ff);
+}
+
+.checkbox-item label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: var(--black);
+  padding-left: 5px;
+}
+
+.checkbox-item.grey label {
+  color: var(--grey-light);
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.available-locally span {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.filter-input input {
+  max-width: 100px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--black, #000);
+  padding: 10px;
+  border: 1px solid var(--black);
+}
+
+.filtry h5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary, #1f51ff);
+  margin-bottom: 0;
+}
+
+.filter-input-contaienr span {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--grey-light, #bfbfbf);
+}
+
+.filter-modal-footer {
+  padding: 24px;
+  background: var(--white);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.filter-modal-clear-btn a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: var(--black);
+}
+
+.fm-confirm-btn a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: var(--white, #fff);
+  background: var(--primary, #1f51ff);
+  padding: 8px 16px;
+}
+
+/* Filter Modal Section CSS End */
