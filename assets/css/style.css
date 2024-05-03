@@ -549,7 +549,7 @@ nav.navbar {
   padding-top: 64px;
 }
 
-.product-cardr-container {
+.product-slider-container {
   padding: 40px 0 32px;
   background: var(--white);
   padding-left: 10%;
@@ -579,6 +579,7 @@ nav.navbar {
 .product-card-img {
   max-width: 260px;
   margin: auto;
+  text-align: center;
 }
 
 .product-card-img img {
@@ -682,6 +683,17 @@ nav.navbar {
   text-transform: uppercase;
   color: var(--black);
   padding-top: 15px;
+}
+
+.see-more-btn {
+  padding-top: 50%;
+  padding-left: 50%;
+}
+
+.see-more-btn a {
+  font-size: 16px;
+  color: var(--black);
+  text-decoration: underline;
 }
 
 /* Popular Section CSS End */
@@ -822,3 +834,39 @@ nav.navbar {
 }
 
 /* Footer Part CSS End */
+
+/* ========***========
+Category Page CSS
+========***======== */
+
+.category-products-wrapper {
+  padding-top: 40px;
+}
+
+.category-products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 80px;
+  background: var(--white);
+  padding: 60px 32px;
+}
+
+.filter select {
+  font-family: "Roboto Mono", monospace;
+  padding: 8px 5px 8px 10px;
+  background: var(--white);
+  border: 1px solid var(--grey-light);
+}
+
+.filter select:focus {
+  outline: 0;
+}
+
+.filter-btn a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: var(--white);
+  background: var(--black, #000);
+  padding: 10px 12px;
+}
