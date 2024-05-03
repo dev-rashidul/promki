@@ -194,7 +194,7 @@
   }
 
   .filter select,
-  .filter-btn a {
+  .filter-btn button {
     display: block;
     width: 239px;
   }
