@@ -1,4 +1,6 @@
-$(".owl-carousel").owlCarousel({
+// Product Slider
+
+$(".product-slider").owlCarousel({
   stagePadding: 100,
   margin: 100,
   nav: false,
@@ -24,3 +26,13 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
+$(".product-details-slider").owlCarousel({
+  loop: true,
+  nav: true,
+  dots: true,
+  items: 1,
+  navText: [
+    '<i class="fa-solid fa-arrow-left-long"></i>',
+    '<i class="fa-solid fa-arrow-right-long"></i>',
+  ],
+});
