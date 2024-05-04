@@ -38,6 +38,11 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
   }
+
+  .product-details-slider,
+  .product-details-slide {
+    width: 100%;
+  }
 }
 
 /* Min Width 300px and Max Width 768px */
@@ -197,5 +202,55 @@
   .filter-btn button {
     display: block;
     width: 239px;
+  }
+
+  .product-details-slider,
+  .product-details-slide {
+    width: 100%;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+    margin-top: 32px;
+    padding-right: 0;
+  }
+
+  .product-hero-content .buy-btn {
+    margin-top: 24px;
+  }
+
+  .product-hero-content .buy-btn-icon,
+  .product-hero-content .btn-discount-tag {
+    display: block;
+  }
+
+  .product-hero-content .buy-btn a {
+    color: var(--black);
+    background: transparent;
+  }
+
+  .product-hero-content .buy-btn a span {
+    color: var(--black);
+  }
+
+  .product-shop-lists {
+    padding-top: 40px;
+  }
+
+  .product-shop-lists h6,
+  .td-card h6,
+  .td-card p {
+    font-size: 14px;
+  }
+
+  .product-categories {
+    padding-top: 40px;
+  }
+
+  .product-categories .category-buttons a {
+    background: transparent;
   }
 }

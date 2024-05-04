@@ -2304,4 +2304,194 @@ Product Page CSS
   padding-right: 8px;
 }
 
+.product-shop-lists {
+  padding-top: 100px;
+}
+
+.product-shop-lists h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--black);
+}
+
+.shop-list {
+  padding: 24px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.shop-list:last-child {
+  border-bottom: none;
+}
+
+.product-price {
+  text-align: right;
+}
+
+.product-price h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.product-price.blue h6 {
+  color: var(--primary);
+}
+
+.product-price a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: var(--black);
+}
+
+.shop-discount-tag p {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  padding: 6px 12px;
+  margin-bottom: 0;
+}
+
+.shop-discount-tag.blue p {
+  background: var(--primary);
+}
+
+.shop-discount-tag.black p {
+  background: var(--black);
+}
+
 /* Product Details Hero Section CSS End */
+
+/* Price History Section CSS Start */
+
+.price-history-wrapper {
+  padding-top: 30px;
+  background: var(--white);
+}
+
+.price-history-container {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--black);
+}
+
+.price-history-chart {
+  padding-bottom: 30px;
+}
+
+.price-history-chart canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Price History Section CSS End */
+
+/* Product Info CSS Start */
+
+.product-wrapper {
+  background: #f7f9fe;
+  padding-top: 64px;
+}
+
+.product-categories h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--black);
+}
+
+.product-categories .category-buttons {
+  overflow-x: initial;
+}
+
+.product-descriptions p::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 249, 254, 0) 0%,
+    rgba(247, 249, 254, 0.91) 49.5%,
+    #f7f9fe 100%
+  );
+}
+
+.product-descriptions.active p::after {
+  display: none;
+}
+
+.product-descriptions p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3a3a3a;
+  padding-top: 20px;
+}
+
+.expand-description-btn,
+.expand-td-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  background: none;
+}
+
+.expand-description-btn button,
+.expand-td-btn button {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: var(--black);
+  background: transparent;
+  border: none;
+}
+
+.td-card h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: var(--black);
+}
+
+.td-card p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.td-cards::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 249, 254, 0) 0%,
+    rgba(247, 249, 254, 0.91) 49.5%,
+    #f7f9fe 100%
+  );
+}
+
+.td-cards.active::after {
+  display: none;
+}
+
+/* Product Info CSS End */
