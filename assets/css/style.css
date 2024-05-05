@@ -1105,6 +1105,12 @@ Product Page CSS
   padding-top: 40px;
 }
 
+.product-hero-wrapper .hero-content {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .product-details-slider,
 .product-details-slide {
   width: 90%;
@@ -2014,7 +2020,7 @@ Category Page CSS
 
 .filter-modal .modal-dialog {
   max-width: 760px;
-  margin-top: 210px;
+  margin-top: 150px;
 }
 
 .filter-modal .modal-content {

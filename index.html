@@ -141,10 +141,10 @@
                       </div>
                       <div class="search-field">
                         <input
+                          id="searchInput"
                           type="text"
                           placeholder="Szukaj produktu lub kategorii.."
                           required
-                          data-autofocus
                         />
                       </div>
                     </div>
@@ -1141,5 +1141,16 @@
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+      // Modal Auto Focus
+
+      const searchModal = document.getElementById("searchModal");
+      const searchInput = document.getElementById("searchInput");
+
+      searchModal.addEventListener("shown.bs.modal", () => {
+        searchInput.focus();
+      });
+    </script>
   </body>
 </html>

@@ -198,6 +198,10 @@
     row-gap: 50px;
   }
 
+  .filter-modal .modal-dialog {
+    margin-top: 100px;
+  }
+
   .filter select,
   .filter-btn button {
     display: block;
@@ -220,6 +224,10 @@
 
   .product-hero-content .buy-btn {
     margin-top: 24px;
+  }
+
+  .product-hero-wrapper .hero-content {
+    position: initial;
   }
 
   .product-hero-content .buy-btn-icon,
