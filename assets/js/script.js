@@ -8,13 +8,13 @@ $(".product-slider").owlCarousel({
   responsive: {
     0: {
       items: 1,
-      margin: 60,
-      stagePadding: 50,
+      margin: 50,
+      stagePadding: 40,
     },
     768: {
       items: 1,
-      margin: 60,
-      stagePadding: 50,
+      margin: 50,
+      stagePadding: 40,
     },
     992: {
       items: 2,
