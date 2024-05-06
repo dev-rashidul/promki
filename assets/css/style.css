@@ -430,6 +430,10 @@ nav.navbar {
   border-radius: 100%;
 }
 
+.available-product span.red::before {
+  background: var(--red);
+}
+
 .regular-price {
   text-align: right;
 }
@@ -1197,6 +1201,14 @@ Product Page CSS
   padding-right: 8px;
 }
 
+.location-btn-green a {
+  background: var(--green);
+}
+
+.order-btn-black a {
+  background: var(--black);
+}
+
 .product-shop-lists {
   padding-top: 100px;
 }
@@ -1216,6 +1228,14 @@ Product Page CSS
 
 .shop-list:last-child {
   border-bottom: none;
+}
+
+.shop-list .available-product > p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0;
 }
 
 .product-price {
@@ -1385,6 +1405,34 @@ Product Page CSS
 
 .td-cards.active::after {
   display: none;
+}
+
+.product-media-expert h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.product-media-expert h5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0;
+}
+
+.product-media-expert .available-product span {
+  font-size: 14px;
+}
+
+.product-media-expert > p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--black);
 }
 
 /* Product Info CSS End */
